@@ -43,7 +43,7 @@ Align_e = time.time()
 
 # 3. Assign speaker labels
 Assign_speaker_load_s = time.time()
-diarize_model = whisperx.DiarizationPipeline(use_auth_token="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", device=device)
+diarize_model = whisperx.DiarizationPipeline(use_auth_token="XXX", device=device)
 Assign_speaker_load_e = time.time()
 
 # add min/max number of speakers if known
@@ -80,4 +80,5 @@ print(diarize_segments)
 # print(assign_word_speakers_result)
 print("====="*20)
 
+# XXX = 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
 
