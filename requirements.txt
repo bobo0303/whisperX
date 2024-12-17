@@ -1,0 +1,16 @@
+torch==2.0.0
+torchaudio==2.0.0
+# torch-2.0.0+cu118-cp310-cp310-linux_x86_64.whl
+# torchaudio-2.0.0+cu118-cp310-cp310-linux_x86_64.whl
+
+numpy<2.0.0
+
+whisperx-3.1.1-py3-none-any.whl
+
+setuptools-rust
+ctranslate2
+faster-whisper==1.0.0
+transformers
+pandas
+nltk
+
